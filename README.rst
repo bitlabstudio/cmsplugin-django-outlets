@@ -1,62 +1,13 @@
 CMSPlugin for Django Outlets
-============
+============================
 
-Provides django-cms integration for django-outlets
-
-Installation
-------------
-
-To get the latest stable release from PyPi
-
-.. code-block:: bash
-
-    pip install cmsplugin-django-outlets
-
-To get the latest commit from GitHub
-
-.. code-block:: bash
-
-    pip install -e git+git://github.com/bitmazk/cmsplugin-django-outlets.git#egg=cmsplugin_outlets
-
-TODO: Describe further installation steps (edit / remove the examples below):
-
-Add ``cmsplugin_outlets`` to your ``INSTALLED_APPS``
-
-.. code-block:: python
-
-    INSTALLED_APPS = (
-        ...,
-        'cmsplugin_outlets',
-    )
-
-Add the ``cmsplugin_outlets`` URLs to your ``urls.py``
-
-.. code-block:: python
-
-    urlpatterns = patterns('',
-        ...
-        url(r'^outlets/', include('cmsplugin_outlets.urls')),
-    )
-
-Before your tags/filters are available in your templates, load them by using
-
-.. code-block:: html
-
-	{% load cmsplugin_outlets_tags %}
+Provides django-cms integration for `django-outlets <https://github.com/bitmazk/django-outlets>`_.
 
 
-Don't forget to migrate your database
+Usage and installation
+----------------------
 
-.. code-block:: bash
-
-    ./manage.py migrate cmsplugin_outlets
-
-
-Usage
------
-
-TODO: Describe usage or point to docs. Also describe available settings and
-templatetags.
+Please visit the main `django-outlets <https://github.com/bitmazk/django-outlets>`_ app. Everything is documented there.
 
 
 Contribute
