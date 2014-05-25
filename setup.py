@@ -38,6 +38,8 @@ dev_requires = [
 
 install_requires = [
     'django',
+    'django-outlets',
+    'django-cms>=3.0'
 ]
 
 
